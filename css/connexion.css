@@ -1,0 +1,98 @@
+/* Style général */
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style pour le formulaire */
+form {
+    width: 400px;
+    background-color: #ffffff;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre du formulaire */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style pour les inputs */
+.inputs input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Style pour le bouton de connexion */
+button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #333;
+}
+
+
+/* Style pour la section contact */
+.section-contact {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+/* Style pour le titre de la section */
+.section-contact h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Style pour le formulaire de connexion */
+.section-contact form {
+  display: flex;
+  justify-content: center;
+}
+
+.section-contact form .col-sm-12 {
+  text-align: center;
+}
+
+/* Style pour le bouton de connexion */
+.section-contact form .btn-inverted {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 18px;
+  padding: 10px 30px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.section-contact form .btn-inverted:hover {
+  background-color: #000000;
+  color: #ffffff;
+}

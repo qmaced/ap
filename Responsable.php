@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Responsable</title>
+        <link href="/ap/css/responsable.css" rel="stylesheet">
     </head>
 
     <?php
@@ -53,6 +54,10 @@
             </select> </br></br>
 
             <p><input type="submit" name="submit" value="OK"></p>
+        </form>
+
+        <form action="modifTache.php" method="post">
+            <p><input type="submit" name="submit" value="Modifier une tâche"></p>
         </form>
     
         <form action="genpdf.php" method="post">
