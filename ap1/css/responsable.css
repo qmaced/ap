@@ -1,0 +1,79 @@
+/* Styles pour le formulaire */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.inputs {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  margin-bottom: 20px;
+  width: 300px;
+  max-width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+/* Styles pour les labels et les sélecteurs */
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #eee;
+  margin-bottom: 20px;
+  width: 300px;
+  max-width: 100%;
+}
+
+/* Styles pour les boutons en bas de page */
+
+form:not(:last-of-type) {
+  margin-bottom: 20px;
+}
